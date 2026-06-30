@@ -17,7 +17,10 @@ namespace AutoDrive
             }
             set
             {
-                _traccion4x4 = value;
+                if (value == true || value == false)
+                {
+                    _traccion4x4 = value;
+                }
             }
         }
 
