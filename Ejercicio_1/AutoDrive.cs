@@ -17,7 +17,9 @@ namespace AutoDrive
             set
             {
                 if (!string.IsNullOrWhiteSpace(value))
+                {
                     _marca = value;
+                }
             }
         }
 
