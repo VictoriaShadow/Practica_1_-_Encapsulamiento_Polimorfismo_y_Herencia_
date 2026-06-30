@@ -5,7 +5,7 @@ using Microsoft.CSharp.RuntimeBinder;
 
 namespace AutoDrive
 {
-    public class AutoElectrico : AutoDrive
+    public class AutoElectrico : Vehiculo
     {
         private int _autonomia;
 
